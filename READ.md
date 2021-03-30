@@ -1,0 +1,1 @@
+Projeto feito acompanhando o curso de html e css do professor Bonieky, utilizando layouts com flexbox e grid 
