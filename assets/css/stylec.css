@@ -18,6 +18,43 @@ body{
     margin:auto;
 }
 
+h1{
+    font-size: 90px;
+    line-height: 100px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    padding-bottom: 30px;
+    margin:0;
+}
+
+h2{
+    font-size: 35px;
+    line-height: 50px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.bar{
+    width:168px;
+    height: 22px;
+    background-color: #117050;
+}
+
+.button{
+    display: inline-block;
+    border: 3px solid #454545;
+    border-radius: 3px;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #454545;
+}
+
+.button:hover{
+    color:white;
+    background-color: #454545;
+}
+
 header .line{
     background-color: #117050;
     height: 10px;
@@ -85,17 +122,11 @@ header .line{
     background-position: center;
     background-size: cover;
     margin: 0;
-    padding-top: 90px;
+    padding-top: 100px;
     padding-bottom: 90px;
 }
 
-.banner h1{
-    font-size: 90px;
-    line-height: 90px;
-    font-family: 'Oswald', sans-serif;
-    font-weight: bold;
-    padding-bottom: 30px;
-}
+
 
 .banner--images{
     margin-top:60px ;
@@ -107,4 +138,40 @@ header .line{
     border-radius: 50%;
     border: 5px solid #117050;
     margin-right: 40px;
+}
+
+/**styles for area 1*/
+
+.area1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.area1--content{
+    padding:80px
+}
+
+.area1--quote{
+    margin-bottom: 30px;
+}
+
+.area1--text{
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+.area1--img1{
+    background: url('/images/f2.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+   
+}
+
+.area1--img2{
+    background: url('/images/f1.jpg');
+    background-position: center;
+    background-size: cover;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
 }
