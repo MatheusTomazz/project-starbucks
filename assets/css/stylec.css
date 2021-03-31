@@ -10,7 +10,7 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    background-color: antiquewhite;
+    
 }
 
 .container{
@@ -52,7 +52,7 @@ header .line{
     border: 1px solid #999999;
     outline: none;
     width: 100%;
-    max-width: 250px;
+    max-width: 250px;  
 }
 
 
@@ -76,4 +76,35 @@ header .line{
 .header--menu img{
     width: 24px;
     height: 24px;
+}
+
+/**styles for banner */
+
+.banner{
+    background: url('/images/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.banner h1{
+    font-size: 90px;
+    line-height: 90px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.banner--images{
+    margin-top:60px ;
+}
+
+.banner--images img{
+    width: 148px;
+    height: 148px;
+    border-radius: 50%;
+    border: 5px solid #117050;
+    margin-right: 40px;
 }
