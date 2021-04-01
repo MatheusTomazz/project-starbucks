@@ -249,3 +249,17 @@ header .line{
     background: url('/images/bg3.jpg');
     background-position: left;
 }
+
+.area5{
+    background: url('/images/bg4.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 600px ;
+}
+
+footer{
+    background-color: #333;
+    color: #FFF;
+    padding: 80px;
+    text-align: center;
+}
